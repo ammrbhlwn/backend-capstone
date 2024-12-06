@@ -1,0 +1,22 @@
+{
+  "name": "sebal-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "globals": "^15.12.0",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "@supabase/supabase-js": "^2.47.1",
+    "dotenv": "^16.4.7",
+    "nanoid": "^3.3.8"
+  }
+}
